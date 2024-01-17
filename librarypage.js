@@ -23,7 +23,8 @@ fetch("https://striveschool-api.herokuapp.com/books")
       </div>
     </div>`;
     });
-  });
+  })
+  .catch();
 
 const removeCardFromDOM = function (event) {
   event.target.closest(".col").remove();
